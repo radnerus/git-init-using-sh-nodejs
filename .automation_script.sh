@@ -1,9 +1,10 @@
 #!/bin/bash
 
 function initialize() {
-    message=$(node git_scrapper.js $1)
-    # echo "$message"
-    if [ "$message" == "$1 - repo with the same name already exists." ]
+    cd
+    message=$(node Documents/Learning/snippets/ProjectBasicSetupAutomation/git_scrapper.js $1)
+    echo "$message"
+    if [ "$message" = "$1 - repo with the same name already exists." ]
     then
         echo "$message"
     else
