@@ -1,1 +1,1 @@
-Basic setup of projects using Shell scripting and NodeJS
+Basic folder and git setup of projects using Shell scripting and NodeJS
