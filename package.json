@@ -1,0 +1,14 @@
+{
+  "name": "projectbasicsetupautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "git_scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suren",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.35.2"
+  }
+}
