@@ -6,8 +6,8 @@ const repoName = arguments[2];
 const createRepository = async (repoName) => {
   const octokit = new Octokit({
     auth: {
-      username: "radnerus",
-      password: "Suren@93"
+      username: "",
+      password: ""
     }
   });
   try {
