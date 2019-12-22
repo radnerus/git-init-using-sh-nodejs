@@ -5,10 +5,7 @@ const arguments = process.argv;
 const repoName = arguments[2];
 const createRepository = async (repoName) => {
   const octokit = new Octokit({
-    auth: {
-      username: "",
-      password: ""
-    }
+    auth: '<add your public auth token https://github.com/settings/tokens>'
   });
   try {
     const repo = await octokit.repos
@@ -17,7 +14,7 @@ const createRepository = async (repoName) => {
       });
       console.log(repo.data.clone_url);
   } catch (error) {
-      console.log(`${repoName} - repo with the same name already exists.`);
+      console.log(repoName);
   }
 }
 createRepository(repoName);
