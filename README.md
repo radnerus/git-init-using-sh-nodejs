@@ -6,7 +6,7 @@ git clone https://github.com/radnerus/git-init-using-sh-nodejs.git
 
 cd git-init-using-sh-nodejs
 
-npm insatll
+npm install
 
 source ~/.my_commands.sh
 ```
